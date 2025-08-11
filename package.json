@@ -1,0 +1,22 @@
+{
+  "name": "echobot-discord",
+  "version": "1.0.0",
+  "description": "Bot ufficiale di EchoStudios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "nodejs"],
+  "author": "EchoStudios",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongodb": "^6.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
